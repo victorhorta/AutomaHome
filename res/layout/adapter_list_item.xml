@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/TableRow01"
+        android:layout_width="fill_parent"
+        
+        android:layout_margin="6sp"
+
+        android:stretchColumns="1" >
+
+        <ImageView
+            android:id="@+id/list_icon"
+            
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            
+            
+            android:scaleType="fitCenter"
+                
+            android:layout_width="50dp"
+            android:maxHeight="50dp"
+            android:maxWidth="50dp"
+            
+                       
+            android:src="@android:drawable/ic_menu_search" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:id="@+id/list_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:height="20sp"
+                    android:text="Node type"
+                    android:textColor="@color/main_gray4"
+                    android:textStyle="bold"
+                    android:typeface="normal" />
+            </TableRow>
+            
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:id="@+id/list_status"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:height="40sp"
+                    android:text="Node status"
+                    android:textColor="@color/main_gray3"
+                    android:textStyle="normal"
+                    android:typeface="normal" />
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+</TableLayout>

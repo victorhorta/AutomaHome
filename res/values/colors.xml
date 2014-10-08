@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main_blue_dark" type="color">#1b4e70</item>
+    <item name="main_blue_normal" type="color">#369de1</item>
+    <item name="main_blue_light" type="color">#d6ebf9</item>
+    <item name="main_gray1" type="color">#DDDDDD</item>
+    <item name="main_gray2" type="color">#B2B2B2</item>
+    <item name="main_gray3" type="color">#777777</item>
+    <item name="main_gray4" type="color">#333333</item>
+</resources>
